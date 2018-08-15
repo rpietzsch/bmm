@@ -1,0 +1,2 @@
+# bmm
+Bootstrap my Mac
