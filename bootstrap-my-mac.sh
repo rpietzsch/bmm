@@ -20,6 +20,11 @@ brew install plantuml graphviz
 # oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+echo "" >> ~/.zshrc
+echo "# give gnu tool priority" >> ~/.zshrc
+echo 'PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"' >> ~/.zshrc
+echo 'MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"' >> ~/.zshrc
+
 # for some clients 
 brew cask install citrix-receiver slack microsoft-teams
 
