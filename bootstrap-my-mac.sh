@@ -6,7 +6,11 @@
 brew cask install xquartz java iterm2 google-chrome google-backup-and-sync firefox visual-studio-code franz rambox sourcetree Skype Skype-for-business zoom skim forklift gimp inkscape libreoffice microsoft-office alternote evernote onedrive seafile-client seadrive adobe-acrobat-reader cyberduck vlc keka simplenote tunnelblick virtualbox virtualbox-extension-pack gpg-suite appcleaner
 
 # config stuff
-brew cask install bettertouchtool alfred controlplane bartender karabiner dropbox karabiner-elements
+brew cask install bettertouchtool alfred controlplane karabiner dropbox karabiner-elements
+
+# hide menu bar icons with bartender ($$$) or dozer (OSS)
+brew cask install dozer 
+# brew cask install bartender 
 
 # add gnu tools
 brew install --with-default-names coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt bash
